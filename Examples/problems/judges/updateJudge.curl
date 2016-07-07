@@ -2,4 +2,4 @@ curl -X PUT -H 'Content-Type: application/json' \
     -d '{
             "name": "new name"
         }' \
-    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/judges/{id}?access_token={{your_access_token}}'
+    'http://<endpoint>/api/v3/judges/{id}?access_token=<access_token>'

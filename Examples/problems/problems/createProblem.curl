@@ -3,4 +3,4 @@ curl -X POST -H 'Content-Type: application/json' \
             "code": "<PROBLEMCODE>", 
             "name": "Name"
         }' \
-    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/problems?access_token={{your_access_token}}'
+    'http://<endpoint>/api/v3/problems?access_token=<access_token>'

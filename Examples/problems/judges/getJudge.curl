@@ -1,2 +1,2 @@
 curl -X GET -H 'Content-Type: application/json' \
-    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/judges/{id}?access_token={{your_access_token}}'
+    'http://<endpoint>/api/v3/judges/{id}?access_token=<access_token>'
