@@ -1,0 +1,6 @@
+curl -X POST -H 'Content-Type: application/json' \
+    -d '{ 
+            "language": 11, 
+            "sourceCode":"#include int main(){ printf(\"Hello!\"); return 0; }" 
+        }' \
+    'http://{{your_user_handle}}.compilers.sphere-engine.com/api/v3/submissions?access_token={{your_access_token}}'

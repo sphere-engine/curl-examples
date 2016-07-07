@@ -1,0 +1,7 @@
+curl -X POST -H 'Content-Type: application/json' \
+    -d '{
+            "input": "input content", 
+            "timelimit": 10, 
+            "output": "output content"
+        }' \
+    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/problems/{code}/testcases?access_token={{your_access_token}}'

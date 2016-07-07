@@ -1,0 +1,5 @@
+curl -X POST -H 'Content-Type: application/json' \
+    -d '{
+            "source": "<source code>"
+        }' \
+    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/judges?access_token={{your_access_token}}'

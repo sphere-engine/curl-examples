@@ -1,0 +1,7 @@
+curl -X POST -H 'Content-Type: application/json' \
+    -d '{
+            "problemCode": "SETEST", 
+            "compilerId": 1, 
+            "source": "<source code>"
+        }' \
+    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/submissions?access_token={{your_access_token}}'

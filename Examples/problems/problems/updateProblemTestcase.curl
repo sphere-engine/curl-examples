@@ -1,0 +1,7 @@
+curl -X PUT -H 'Content-Type: application/json' \
+    -d '{
+            "input": "updated content", 
+            "timelimit": 9, 
+            "output": "updated content"
+        }' \
+    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/problems/{code}/testcases/{number}?access_token={{your_access_token}}'

@@ -1,0 +1,6 @@
+curl -X POST -H 'Content-Type: application/json' \
+    -d '{
+            "username": "<username>", 
+            "password": "<password>"
+        }' \
+    'http://{{your_user_handle}}.problems.sphere-engine.com/api/v3/auth'

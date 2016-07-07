@@ -1,0 +1,3 @@
+curl -X GET -H 'Content-Type: application/json' \
+    'http://{{your_user_handle}}.compilers.sphere-engine.com/api/v3/languages?access_token={{your_access_token}}'
+	
