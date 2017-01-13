@@ -1,2 +1,2 @@
 curl -X GET -H 'Content-Type: application/json' \
-    'http://<endpoint>/api/v3/submissions?ids={ids}&access_token=<access_token>'
+    'http://<endpoint>/api/v3/submissions?ids=2017,2018&access_token=<access_token>'
