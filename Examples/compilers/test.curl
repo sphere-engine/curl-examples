@@ -1,3 +1,2 @@
-curl -X GET -H 'Content-Type: application/json' \
-    'http://<endpoint>/api/v3/test?access_token=<access_token>'
+curl -X GET -H 'Content-Type: application/json' 'http://<endpoint>/api/v3/test?access_token=<access_token>'
 	

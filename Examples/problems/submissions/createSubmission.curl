@@ -1,7 +1,8 @@
-curl -X POST -H 'Content-Type: application/json' \
-    -d '{
-            "problemCode": "SETEST", 
-            "compilerId": 1, 
-            "source": "<source code>"
-        }' \
-    'http://<endpoint>/api/v3/submissions?access_token=<access_token>'
+$ cat request.json
+{
+    "problemCode": "SETEST", 
+    "compilerId": 1, 
+    "source": "<source code>"
+}
+
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v3/submissions?access_token=<access_token>'

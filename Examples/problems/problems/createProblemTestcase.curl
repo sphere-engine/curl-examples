@@ -1,7 +1,8 @@
-curl -X POST -H 'Content-Type: application/json' \
-    -d '{
-            "input": "input content", 
-            "timelimit": 10, 
-            "output": "output content"
-        }' \
-    'http://<endpoint>/api/v3/problems/{code}/testcases?access_token=<access_token>'
+$ cat request.json
+{
+    "input": "input content", 
+    "timelimit": 10, 
+    "output": "output content"
+}
+        
+$ curl -X POST -H 'Content-Type: application/json' "`cat request.json`" 'http://<endpoint>/api/v3/problems/{code}/testcases?access_token=<access_token>'

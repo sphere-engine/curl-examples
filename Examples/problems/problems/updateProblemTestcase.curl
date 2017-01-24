@@ -1,7 +1,8 @@
-curl -X PUT -H 'Content-Type: application/json' \
-    -d '{
-            "input": "updated content", 
-            "timelimit": 9, 
-            "output": "updated content"
-        }' \
-    'http://<endpoint>/api/v3/problems/{code}/testcases/{number}?access_token=<access_token>'
+$ cat request.json
+{
+    "input": "updated content", 
+    "timelimit": 9, 
+    "output": "updated content"
+}
+        
+curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v3/problems/{code}/testcases/{number}?access_token=<access_token>'
