@@ -1,0 +1,15 @@
+{
+    "items": [
+        {
+            "uri": "http://problems.sphere-engine.com/api/v3/judges/1", 
+            "id": 1, 
+            "name": "Ignore white spaces"
+        }
+    ], 
+    "paging": {
+        "next": "", 
+        "prev": "", 
+        "limit": 10, 
+        "offset": 0
+    }
+}

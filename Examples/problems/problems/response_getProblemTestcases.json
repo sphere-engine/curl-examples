@@ -1,0 +1,24 @@
+{
+    "testcases": [
+        {
+            "limits": {
+                "time": 10
+            }, 
+            "number": 0, 
+            "judge": {
+                "uri": "http://problems.sphere-engine.com/api/v3/judges/1", 
+                "id": 1, 
+                "name": "Ignore white spaces"
+            }, 
+            "output": {
+                "url": "http://problems.sphere-engine.com/api/v3/problems/TEST/testcases/0/...", 
+                "size": 1000000
+            }, 
+            "active": true, 
+            "input": {
+                "url": "http://problems.sphere-engine.com/api/v3/problems/TEST/testcases/0/...", 
+                "size": 100
+            }
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "items": [
+        {
+            "code": "TEST", 
+            "name": "Problems name", 
+            "actions": {
+                "edit": false, 
+                "clone": false
+            }, 
+            "uri": "http://problems.sphere-engine.com/api/v3/problems/TEST"
+        }
+    ], 
+    "paging": {
+        "next": "http://problems.sphere-engine.com/api/v3/problems?offset=10", 
+        "prev": "", 
+        "limit": 10, 
+        "offset": 0
+    }
+}

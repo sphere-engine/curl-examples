@@ -1,0 +1,10 @@
+{
+    "id": 1, 
+    "source": "judge source code", 
+    "type": "testcase", 
+    "name": "Ignore white spaces", 
+    "compiler": {
+        "id": 1, 
+        "name": "C++"
+    }
+}
