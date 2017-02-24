@@ -1,18 +1,25 @@
 {
-    "body": "...", 
-    "code": "TEST", 
-    "name": "Problem name", 
+    "code": "EXPRBL",
+    "name": "Example Problem",
+    "body": "problem description",
+    "type": "binary",
+    "interactive": 0,
+    "masterjudge": {
+        "id": 1001,
+        "name": "Score is % of correctly solved sets",
+        "uri": "http://<endpoint>/judges/1001"
+    },
     "testcases": [
         {
-            "active": true, 
-            "number": 0
+            "number": 0,
+            "active": true
+        },
+        {
+            "number": 1,
+            "active": false
         }
-    ], 
-    "masterjudge": {
-        "uri": "http://problems.sphere-engine.com/api/v3/judges/1000", 
-        "id": 1000, 
-        "name": "Generic masterjudge"
-    }, 
-    "type": "binary", 
-    "interactive": false
+    ],
+    "seq": "#0",
+    "lastModifiedBody": 1486478234,
+    "lastModifiedSettings": 1487929707
 }

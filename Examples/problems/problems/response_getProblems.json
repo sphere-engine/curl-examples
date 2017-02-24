@@ -1,19 +1,34 @@
 {
     "items": [
         {
-            "code": "TEST", 
-            "name": "Problems name", 
+            "code": "EXPRBL",
+            "name": "Example Problem",
+            "lastModifiedBody": 1486478234,
+            "lastModifiedSettings": 1487929707,
             "actions": {
-                "edit": false, 
-                "clone": false
-            }, 
-            "uri": "http://problems.sphere-engine.com/api/v3/problems/TEST"
+                "edit":true,
+                "clone":true
+            },
+            "uri": "http://<endpoint>/api/v3/problems/TEST"
+        },
+        {
+            "code": "ANOPRBL",
+            "name": "Another problem",
+            "lastModifiedBody": 1486491532,
+            "lastModifiedSettings": 1486496511,
+            "actions": {
+                "edit":true,
+                "clone":true
+            },
+            "uri": "http://<endpoint>/api/v3/problems/TEST"
         }
-    ], 
+    ],
     "paging": {
-        "next": "http://problems.sphere-engine.com/api/v3/problems?offset=10", 
-        "prev": "", 
-        "limit": 10, 
-        "offset": 0
+        "limit": 2,
+        "offset": 4,
+        "total": 7,
+        "pages": 4,
+        "prev": "http://<endpoint>/api/v3/problems?offset=2",
+        "next": "http://<endpoint>/api/v3/problems?offset=6"
     }
 }

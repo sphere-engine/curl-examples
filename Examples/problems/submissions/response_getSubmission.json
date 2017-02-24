@@ -1,3 +1,39 @@
 {
-    "TODO": "TODO"
+    "id": 42,
+    "date": "2017-02-24 10:02:26 +00:00",
+    "source": "source code",
+    "compiler": {
+        "id": 1,
+        "name": "C++"
+    },
+    "problem": {
+        "code": "EXPRBL", 
+        "name": "Example Problem", 
+        "uri": "http://<endpoint>/api/v3/problems/EXPRBL"
+    },
+    "result": {
+        "status": "accepted",
+        "status_code": 15,
+        "signal": 0, 
+        "time": 1.24,
+        "memory": 2048,
+        "score": 100,
+        "runtime_info": {
+            "psinfo": "",
+            "stderr": "",
+            "cmperr": "",
+            "stdout": ""
+        },
+        "testcases": [
+            {
+                "number": 0,
+                "status": "accepted",
+                "status_code": 15,
+                "signal": 0, 
+                "time": 1.24,
+                "memory": 2048,
+                "score": 100
+            }
+        ]
+    }
 }
