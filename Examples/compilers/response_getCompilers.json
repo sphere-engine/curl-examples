@@ -7,6 +7,14 @@
             "ver": "6.3",
             "ace": "c_cpp",
             "geshi": "cpp"
+        },
+        {
+            "id": 116,
+            "name": "Python 3",
+            "short": "py",
+            "ver": "3.5",
+            "ace": "python",
+            "geshi": "python"
         }
     ]
 }

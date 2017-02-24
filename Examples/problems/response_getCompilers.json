@@ -4,17 +4,17 @@
             "id": 1,
             "name": "C++",
             "short": "cpp",
-            "geshi": "cpp",
+            "ver": "6.3",
             "ace": "c_cpp",
-            "ver": "6.3"
+            "geshi": "cpp"
         },
         {
             "id": 116,
             "name": "Python 3",
             "short": "py",
-            "geshi": "python",
+            "ver": "3.5",
             "ace": "python",
-            "ver": "3.5"
+            "geshi": "python"
         }
     ]
 }
