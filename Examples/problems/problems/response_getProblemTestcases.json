@@ -5,11 +5,11 @@
             "active": true,
             "input": {
                 "size": 7,
-                "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt"
+                "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt"
             },
             "output": {
                 "size": 9,
-                "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt"
+                "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt"
             },
             "limits": {
                 "time": 1
@@ -25,11 +25,11 @@
             "active": false,
             "input": {
                 "size": 3,
-                "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/1/input-EXPRBL-1.txt"
+                "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/1/input-EXPRBL-1.txt"
             },
             "output": {
                 "size": 2,
-                "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/1/output-EXPRBL-1.txt"
+                "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/1/output-EXPRBL-1.txt"
             },
             "limits": {
                 "time": 0.8

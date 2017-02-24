@@ -3,14 +3,14 @@
     "active": true,
     "input": {
         "size":7,
-        "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt"
+        "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt"
     },
     "output":{
         "size":9,
-        "url":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt"
+        "uri":"http://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt"
     },
     "limits": {
-        "time": "1"
+        "time": 1
     },
     "judge": {
         "id": 1,
