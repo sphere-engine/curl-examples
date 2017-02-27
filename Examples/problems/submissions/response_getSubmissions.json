@@ -15,6 +15,7 @@
             "result": {
                 "status": "accepted",
                 "status_code": 15,
+                "signal": 0,
                 "time": 1.24,
                 "memory": 2048,
                 "score": 100,
@@ -22,7 +23,8 @@
                     {
                         "number": 0,
                         "status": "accepted",
-                        "status_code": 15, 
+                        "status_code": 15,
+                        "signal": 0,
                         "time": 1.24,
                         "memory": 2048,
                         "score": 100
