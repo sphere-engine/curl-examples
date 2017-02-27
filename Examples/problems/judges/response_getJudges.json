@@ -4,15 +4,13 @@
             "id": 1,
             "name": "Ignores extra whitespaces",
             "uri": "http://<endpoint>/api/v3/judges/1",
-            "type": "testcase",
-            "public": true
+            "type": "testcase"
         },
         {
             "id": 2,
             "name":"Ignores FP rounding up to 10^-2",
             "uri": "http://<endpoint>/api/v3/judges/2",
-            "type": "testcase",
-            "public": true
+            "type": "testcase"
         }
     ],
     "paging": {
