@@ -3,18 +3,26 @@
         {
             "id": 1,
             "name": "C++",
-            "short": "cpp",
             "ver": "6.3",
-            "ace": "c_cpp",
-            "geshi": "cpp"
+            "short": "CPP",
+            "ace": "c_cpp", 
+            "geshi": "cpp",
+            "pygments": "cpp",
+            "highlights": "c",
+            "rouge": "cpp",
+            "codemirror": "clike"
         },
         {
             "id": 116,
             "name": "Python 3",
-            "short": "py",
             "ver": "3.5",
+            "short": "PYTHON3",
             "ace": "python",
-            "geshi": "python"
+            "geshi": "python",
+            "pygments": "python",
+            "highlights": "python",
+            "rouge": "python",
+            "codemirror": "python"
         }
     ]
 }
