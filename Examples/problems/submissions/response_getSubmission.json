@@ -4,7 +4,8 @@
     "source": "source code",
     "compiler": {
         "id": 1,
-        "name": "C++"
+        "name": "C++",
+        "version": "gcc 6.3"
     },
     "problem": {
         "code": "EXPRBL", 

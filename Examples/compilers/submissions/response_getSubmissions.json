@@ -11,7 +11,7 @@
             "compiler": {
                 "id": 1,
                 "name": "C++",
-                "version": "6.3"
+                "version": "gcc 6.3"
             }
         }
     ]

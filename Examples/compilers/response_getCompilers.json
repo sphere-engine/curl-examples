@@ -3,7 +3,7 @@
         {
             "id": 1,
             "name": "C++",
-            "ver": "6.3",
+            "ver": "gcc 6.3",
             "short": "CPP",
             "ace": "c_cpp", 
             "geshi": "cpp",
