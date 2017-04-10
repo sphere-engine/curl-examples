@@ -1,7 +1,7 @@
 $ cat request.json
 { 
     "language": 11, 
-    "sourceCode": "#include <stdio.h>\n int main(){ printf(\"Hello!\"); return 0; }" 
+    "sourceCode": "<source code>" 
 }
 
 $ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" "http://<endpoint>/api/v3/submissions?access_token=<access_token>"
