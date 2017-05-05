@@ -3,13 +3,13 @@
         {
             "id": 1,
             "name": "Ignores extra whitespaces",
-            "uri": "http://<endpoint>/api/v3/judges/1",
+            "uri": "http://<endpoint>/api/v3/judges/1?access_token=<access_token>",
             "type": "testcase"
         },
         {
             "id": 2,
             "name":"Ignores FP rounding up to 10^-2",
-            "uri": "http://<endpoint>/api/v3/judges/2",
+            "uri": "http://<endpoint>/api/v3/judges/2?access_token=<access_token>",
             "type": "testcase"
         }
     ],
@@ -18,7 +18,7 @@
         "offset": 4,
         "total": 9,
         "pages": 5,
-        "prev": "http://<endpoint>/api/v3/judges?offset=2",
-        "next": "http://<endpoint>/api/v3/judges?offset=6"
+        "prev": "http://<endpoint>/api/v3/judges?offset=2&access_token=<access_token>",
+        "next": "http://<endpoint>/api/v3/judges?offset=6&access_token=<access_token>"
     }
 }

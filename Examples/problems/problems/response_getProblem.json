@@ -7,7 +7,7 @@
     "masterjudge": {
         "id": 1001,
         "name": "Score is % of correctly solved sets",
-        "uri": "http://<endpoint>/judges/1001"
+        "uri": "http://<endpoint>/judges/1001?access_token=<access_token>"
     },
     "testcases": [
         {
