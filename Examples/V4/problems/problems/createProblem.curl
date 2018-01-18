@@ -1,0 +1,8 @@
+$ cat request.json
+{
+    "code": "EXAMPLE", 
+    "name": "Example problem",
+    "masterjudgeId": 1001
+}
+
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v4/problems?access_token=<access_token>'

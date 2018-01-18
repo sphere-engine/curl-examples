@@ -1,0 +1,8 @@
+$ cat request.json
+{
+    "problemCode": "EXAMPLE", 
+    "compilerId": 1, 
+    "source": "<source code>"
+}
+
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v4/submissions?access_token=<access_token>'

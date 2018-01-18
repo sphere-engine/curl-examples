@@ -5,4 +5,4 @@ $ cat request.json
     "output": "updated content"
 }
         
-curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v3/problems/{code}/testcases/{number}?access_token=<access_token>'
+$ curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v3/problems/{code}/testcases/{number}?access_token=<access_token>'

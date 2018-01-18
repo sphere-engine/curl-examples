@@ -1,0 +1,7 @@
+$ cat request.json
+{
+    "compilerId": 11,
+    "source": "<source code>"
+}
+
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v4/judges?access_token=<access_token>'
