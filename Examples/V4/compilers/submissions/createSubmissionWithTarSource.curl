@@ -1,1 +1,1 @@
-curl -X POST --form "compilerId=11" --form "source=@c-source.tar.gz" "http://<endpoint>/api/v4/submissions?access_token=<access_token>"
+curl -X POST --form "compilerId=11" --form "source=@c-source.tar.gz" "https://<endpoint>/api/v4/submissions?access_token=<access_token>"

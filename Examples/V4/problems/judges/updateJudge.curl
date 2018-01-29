@@ -3,4 +3,4 @@ $ cat request.json
     "name": "<new_name>"
 }
         
-$ curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v4/judges/{id}?access_token=<access_token>'
+$ curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v4/judges/{id}?access_token=<access_token>'

@@ -1,1 +1,1 @@
-curl -X DELETE 'http://<endpoint>/api/v4/problems/{id}?access_token=<access_token>'
+curl -X DELETE 'https://<endpoint>/api/v4/problems/{id}?access_token=<access_token>'
