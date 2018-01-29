@@ -1,6 +1,6 @@
 $ cat request.json
 {
-    "problemCode": "EXAMPLE", 
+    "problemId": 42, 
     "compilerId": 1, 
     "source": "<source code>"
 }

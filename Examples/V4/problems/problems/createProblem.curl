@@ -1,6 +1,5 @@
 $ cat request.json
 {
-    "code": "EXAMPLE", 
     "name": "Example problem",
     "masterjudgeId": 1001
 }
