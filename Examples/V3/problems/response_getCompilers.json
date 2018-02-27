@@ -10,7 +10,8 @@
             "pygments": "cpp",
             "highlights": "c",
             "rouge": "cpp",
-            "codemirror": "clike"
+            "codemirror": "clike",
+            "highlightjs": "cpp"
         },
         {
             "id": 116,
@@ -22,7 +23,8 @@
             "pygments": "python",
             "highlights": "python",
             "rouge": "python",
-            "codemirror": "python"
+            "codemirror": "python",
+            "highlightjs": "python"
         }
     ]
 }
