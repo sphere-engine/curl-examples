@@ -11,7 +11,10 @@
             "highlights": "c",
             "rouge": "cpp",
             "codemirror": "clike",
-            "highlightjs": "cpp"
+            "highlightjs": "cpp",
+            "prism": "cpp",
+            "monaco": "cpp",
+            "code_prettify": "cpp"
         },
         {
             "id": 116,
@@ -24,7 +27,10 @@
             "highlights": "python",
             "rouge": "python",
             "codemirror": "python",
-            "highlightjs": "python"
+            "highlightjs": "python",
+            "prism": "python",
+            "monaco": "python",
+            "code_prettify": "python"
         }
     ]
 }
