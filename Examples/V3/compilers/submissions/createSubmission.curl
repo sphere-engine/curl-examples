@@ -4,4 +4,4 @@ $ cat request.json
     "sourceCode": "<source code>" 
 }
 
-$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" "http://<endpoint>/api/v3/submissions?access_token=<access_token>"
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" "https://<endpoint>/api/v3/submissions?access_token=<access_token>"

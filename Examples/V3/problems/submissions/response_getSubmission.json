@@ -10,7 +10,7 @@
     "problem": {
         "code": "EXPRBL", 
         "name": "Example Problem", 
-        "uri": "http://<endpoint>/api/v3/problems/EXPRBL?access_token=<access_token>"
+        "uri": "https://<endpoint>/api/v3/problems/EXPRBL?access_token=<access_token>"
     },
     "result": {
         "status": "accepted",

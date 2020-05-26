@@ -1,2 +1,2 @@
-curl -X GET 'http://<endpoint>/api/v3/test?access_token=<access_token>'
+curl -X GET 'https://<endpoint>/api/v3/test?access_token=<access_token>'
 	

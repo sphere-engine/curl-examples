@@ -4,4 +4,4 @@ $ cat request.json
     "password": "<password>"
 }
 
-$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'http://<endpoint>/api/v3/auth'
+$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v3/auth'
