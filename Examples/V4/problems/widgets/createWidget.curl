@@ -2,7 +2,7 @@ $ cat request.json
 {
     "name": "Example widget",
     "problem_id": 42, 
-    "compilerId": 1
+    "default_language": 1
 }
 
 $ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v4/widgets?access_token=<access_token>'
