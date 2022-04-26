@@ -1,0 +1,1 @@
+curl -X POST --form "project_code=ef66185208" --form "source=@source.tar.gz" "https://<endpoint>/api/v1/submissions?access_token=<access_token>"
