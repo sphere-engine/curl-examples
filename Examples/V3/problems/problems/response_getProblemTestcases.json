@@ -1,44 +1,44 @@
 {
-    "testcases": [
-        {
-            "number": 0,
-            "active": true,
-            "input": {
-                "size": 7,
-                "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt?access_token=<access_token>"
-            },
-            "output": {
-                "size": 9,
-                "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt?access_token=<access_token>"
-            },
-            "limits": {
-                "time": 1
-            },
-            "judge": {
-                "id": 1,
-                "name": "Ignores extra whitespaces",
-                "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
-            }
-        },
-        {
-            "number": 1,
-            "active": false,
-            "input": {
-                "size": 3,
-                "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/1/input-EXPRBL-1.txt?access_token=<access_token>"
-            },
-            "output": {
-                "size": 2,
-                "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/1/output-EXPRBL-1.txt?access_token=<access_token>"
-            },
-            "limits": {
-                "time": 0.8
-            },
-            "judge": {
-                "id": 1,
-                "name": "Ignores extra whitespaces",
-                "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
-            }
-        }
-    ]
+  "testcases": [
+    {
+      "number": 0,
+      "active": true,
+      "input": {
+        "size": 7,
+        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt?access_token=<access_token>"
+      },
+      "output": {
+        "size": 9,
+        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt?access_token=<access_token>"
+      },
+      "limits": {
+        "time": 1
+      },
+      "judge": {
+        "id": 1,
+        "name": "Ignores extra whitespaces",
+        "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
+      }
+    },
+    {
+      "number": 1,
+      "active": false,
+      "input": {
+        "size": 3,
+        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/1/input-EXPRBL-1.txt?access_token=<access_token>"
+      },
+      "output": {
+        "size": 2,
+        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/1/output-EXPRBL-1.txt?access_token=<access_token>"
+      },
+      "limits": {
+        "time": 0.8
+      },
+      "judge": {
+        "id": 1,
+        "name": "Ignores extra whitespaces",
+        "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
+      }
+    }
+  ]
 }

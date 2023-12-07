@@ -1,24 +1,24 @@
 {
-    "items": [
-        {
-            "id": 1,
-            "name": "Ignores extra whitespaces",
-            "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>",
-            "type": "testcase"
-        },
-        {
-            "id": 2,
-            "name":"Ignores FP rounding up to 10^-2",
-            "uri": "https://<endpoint>/api/v3/judges/2?access_token=<access_token>",
-            "type": "testcase"
-        }
-    ],
-    "paging": {
-        "limit": 2,
-        "offset": 4,
-        "total": 9,
-        "pages": 5,
-        "prev": "https://<endpoint>/api/v3/judges?offset=2&access_token=<access_token>",
-        "next": "https://<endpoint>/api/v3/judges?offset=6&access_token=<access_token>"
+  "items": [
+    {
+      "id": 1,
+      "name": "Ignores extra whitespaces",
+      "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>",
+      "type": "testcase"
+    },
+    {
+      "id": 2,
+      "name":"Ignores FP rounding up to 10^-2",
+      "uri": "https://<endpoint>/api/v3/judges/2?access_token=<access_token>",
+      "type": "testcase"
     }
+  ],
+  "paging": {
+    "limit": 2,
+    "offset": 4,
+    "total": 9,
+    "pages": 5,
+    "prev": "https://<endpoint>/api/v3/judges?offset=2&access_token=<access_token>",
+    "next": "https://<endpoint>/api/v3/judges?offset=6&access_token=<access_token>"
+  }
 }

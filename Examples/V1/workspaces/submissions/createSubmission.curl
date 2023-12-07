@@ -1,1 +1,4 @@
-curl -X POST --form "project_id=ef66185208" --form "source=@source.tar.gz" "https://<endpoint>/api/v1/submissions?access_token=<access_token>"
+curl -X POST \
+    -F "project_id=ef66185208" \
+    -F "source=@source.tar.gz" \
+    "https://<endpoint>/api/v1/submissions?access_token=<access_token>"

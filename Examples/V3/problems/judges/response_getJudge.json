@@ -1,10 +1,10 @@
 {
+  "id": 1,
+  "name": "Ignores extra whitespaces",
+  "source": "judge source code",
+  "compiler": {
     "id": 1,
-    "name": "Ignores extra whitespaces",
-    "source": "judge source code",
-    "compiler": {
-        "id": 1,
-        "name": "C++"
-    },
-    "type": "testcase"
+    "name": "C++"
+  },
+  "type": "testcase"
 }

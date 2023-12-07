@@ -1,20 +1,20 @@
 {
-    "number": 0,
-    "active": true,
-    "input": {
-        "size":7,
-        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt?access_token=<access_token>"
-    },
-    "output":{
-        "size":9,
-        "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt?access_token=<access_token>"
-    },
-    "limits": {
-        "time": 1
-    },
-    "judge": {
-        "id": 1,
-        "name": "Ignores extra whitespaces",
-        "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
-    }
+  "number": 0,
+  "active": true,
+  "input": {
+    "size":7,
+    "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/input-EXPRBL-0.txt?access_token=<access_token>"
+  },
+  "output":{
+    "size":9,
+    "uri":"https://<endpoint>/api/v3/problems/EXPRBL/testcases/0/output-EXPRBL-0.txt?access_token=<access_token>"
+  },
+  "limits": {
+    "time": 1
+  },
+  "judge": {
+    "id": 1,
+    "name": "Ignores extra whitespaces",
+    "uri": "https://<endpoint>/api/v3/judges/1?access_token=<access_token>"
+  }
 }

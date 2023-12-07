@@ -3,4 +3,7 @@ $ cat request.json
     
 }
 
-$ curl -X PUT -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v4/submissions/{id}?access_token=<access_token>'
+$ curl -X PUT \
+    -H 'Content-Type: application/json' \
+    -d "`cat request.json`" \
+    'https://<endpoint>/api/v4/submissions/{id}?access_token=<access_token>'

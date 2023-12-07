@@ -1,1 +1,6 @@
-curl -X POST --form "problemId=42" --form "compilerId=11" --form "files[prog.c]=@prog.c" --form "files[prog.h]=@prog.h" "https://<endpoint>/api/v4/submissions?access_token=<access_token>"
+curl -X POST \
+    -F "problemId=42" \
+    -F "compilerId=11" \
+    -F "files[prog.c]=@prog.c" \
+    -F "files[prog.h]=@prog.h" \
+    "https://<endpoint>/api/v4/submissions?access_token=<access_token>"

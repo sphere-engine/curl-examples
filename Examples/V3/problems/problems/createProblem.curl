@@ -4,4 +4,7 @@ $ cat request.json
     "name": "Name"
 }
 
-$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v3/problems?access_token=<access_token>'
+$ curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d "`cat request.json`" \
+    'https://<endpoint>/api/v3/problems?access_token=<access_token>'

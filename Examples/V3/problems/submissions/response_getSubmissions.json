@@ -1,37 +1,37 @@
 {
-    "items": [
-        {
-            "id": 42,
-            "date": "2017-02-24 10:02:26 +00:00",
-            "compiler": {
-                "id": 1,
-                "name": "C++",
-                "ver": "gcc 6.3"
-            },
-            "problem": {
-                "code": "EXPRBL",
-                "name": "Example Problem",
-                "uri": "https://<endpoint>/api/v3/problems/EXPRBL?access_token=<access_token>"
-            },
-            "result": {
-                "status": "accepted",
-                "status_code": 15,
-                "signal": 0,
-                "time": 1.24,
-                "memory": 2048,
-                "score": 100,
-                "testcases": [
-                    {
-                        "number": 0,
-                        "status": "accepted",
-                        "status_code": 15,
-                        "signal": 0,
-                        "time": 1.24,
-                        "memory": 2048,
-                        "score": 100
-                    }
-                ]
-            }
-        }
-    ]
+  "items": [
+    {
+      "id": 42,
+      "date": "2017-02-24 10:02:26 +00:00",
+      "compiler": {
+        "id": 1,
+        "name": "C++",
+        "ver": "gcc 6.3"
+      },
+      "problem": {
+        "code": "EXPRBL",
+        "name": "Example Problem",
+        "uri": "https://<endpoint>/api/v3/problems/EXPRBL?access_token=<access_token>"
+      },
+      "result": {
+        "status": "accepted",
+        "status_code": 15,
+        "signal": 0,
+        "time": 1.24,
+        "memory": 2048,
+        "score": 100,
+        "testcases": [
+          {
+            "number": 0,
+            "status": "accepted",
+            "status_code": 15,
+            "signal": 0,
+            "time": 1.24,
+            "memory": 2048,
+            "score": 100
+          }
+        ]
+      }
+    }
+  ]
 }

@@ -1,24 +1,24 @@
 {
-    "code": "EXPRBL",
-    "name": "Example Problem",
-    "body": "problem description",
-    "type": "binary",
-    "interactive": 0,
-    "masterjudge": {
-        "id": 1001,
-        "name": "Score is % of correctly solved sets",
-        "uri": "https://<endpoint>/judges/1001?access_token=<access_token>"
+  "code": "EXPRBL",
+  "name": "Example Problem",
+  "body": "problem description",
+  "type": "binary",
+  "interactive": 0,
+  "masterjudge": {
+    "id": 1001,
+    "name": "Score is % of correctly solved sets",
+    "uri": "https://<endpoint>/judges/1001?access_token=<access_token>"
+  },
+  "testcases": [
+    {
+      "number": 0,
+      "active": true
     },
-    "testcases": [
-        {
-            "number": 0,
-            "active": true
-        },
-        {
-            "number": 1,
-            "active": false
-        }
-    ],
-    "lastModifiedBody": 1486478234,
-    "lastModifiedSettings": 1487929707
+    {
+      "number": 1,
+      "active": false
+    }
+  ],
+  "lastModifiedBody": 1486478234,
+  "lastModifiedSettings": 1487929707
 }

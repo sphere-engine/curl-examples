@@ -1,34 +1,34 @@
 {
-    "items": [
-        {
-            "code": "EXPRBL",
-            "name": "Example Problem",
-            "lastModifiedBody": 1486478234,
-            "lastModifiedSettings": 1487929707,
-            "actions": {
-                "edit":true,
-                "clone":true
-            },
-            "uri": "https://<endpoint>/api/v3/problems/TEST?access_token=<access_token>"
-        },
-        {
-            "code": "ANOPRBL",
-            "name": "Another problem",
-            "lastModifiedBody": 1486491532,
-            "lastModifiedSettings": 1486496511,
-            "actions": {
-                "edit":true,
-                "clone":true
-            },
-            "uri": "https://<endpoint>/api/v3/problems/TEST?access_token=<access_token>"
-        }
-    ],
-    "paging": {
-        "limit": 2,
-        "offset": 4,
-        "total": 7,
-        "pages": 4,
-        "prev": "https://<endpoint>/api/v3/problems?offset=2&access_token=<access_token>",
-        "next": "https://<endpoint>/api/v3/problems?offset=6&access_token=<access_token>"
+  "items": [
+    {
+      "code": "EXPRBL",
+      "name": "Example Problem",
+      "lastModifiedBody": 1486478234,
+      "lastModifiedSettings": 1487929707,
+      "actions": {
+        "edit":true,
+        "clone":true
+      },
+      "uri": "https://<endpoint>/api/v3/problems/TEST?access_token=<access_token>"
+    },
+    {
+      "code": "ANOPRBL",
+      "name": "Another problem",
+      "lastModifiedBody": 1486491532,
+      "lastModifiedSettings": 1486496511,
+      "actions": {
+        "edit":true,
+        "clone":true
+      },
+      "uri": "https://<endpoint>/api/v3/problems/TEST?access_token=<access_token>"
     }
+  ],
+  "paging": {
+    "limit": 2,
+    "offset": 4,
+    "total": 7,
+    "pages": 4,
+    "prev": "https://<endpoint>/api/v3/problems?offset=2&access_token=<access_token>",
+    "next": "https://<endpoint>/api/v3/problems?offset=6&access_token=<access_token>"
+  }
 }

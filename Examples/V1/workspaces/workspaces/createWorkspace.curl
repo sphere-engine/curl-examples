@@ -1,1 +1,3 @@
-curl -X POST --form "project_id=82da33ed1b7e" "https://<endpoint>/api/v1/workspaces?access_token=<access_token>"
+curl -X POST \
+    -F "project_id=82da33ed1b7e" \
+    "https://<endpoint>/api/v1/workspaces?access_token=<access_token>"

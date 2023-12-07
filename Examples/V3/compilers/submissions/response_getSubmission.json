@@ -1,13 +1,13 @@
 {
-    "time": 0.4,
-    "memory": 2048,
-    "date": "2017-02-24 14:24:21",
-    "status": 0,
-    "result": 0,
-    "signal": 0,
-    "compiler": {
-        "id": 1,
-        "name": "C++",
-        "ver": "gcc 6.3"
-    }
+  "time": 0.4,
+  "memory": 2048,
+  "date": "2017-02-24 14:24:21",
+  "status": 0,
+  "result": 0,
+  "signal": 0,
+  "compiler": {
+    "id": 1,
+    "name": "C++",
+    "ver": "gcc 6.3"
+  }
 }

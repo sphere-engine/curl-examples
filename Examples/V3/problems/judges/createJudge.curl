@@ -3,4 +3,7 @@ $ cat request.json
     "source": "<source code>"
 }
 
-$ curl -X POST -H 'Content-Type: application/json' -d "`cat request.json`" 'https://<endpoint>/api/v3/judges?access_token=<access_token>'
+$ curl -X POST \
+    -H 'Content-Type: application/json' \
+    -d "`cat request.json`" \
+    'https://<endpoint>/api/v3/judges?access_token=<access_token>'
