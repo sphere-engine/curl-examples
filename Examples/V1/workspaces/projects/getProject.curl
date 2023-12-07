@@ -1,0 +1,1 @@
+curl -X GET 'https://<endpoint>/api/v1/projects/<id>?access_token=<access_token>'
