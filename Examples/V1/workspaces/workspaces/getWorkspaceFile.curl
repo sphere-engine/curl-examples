@@ -1,0 +1,5 @@
+$ curl -X PUT "https://<endpoint>/api/v1/workspaces/<id>/files/<path>?access_token=<access_token>"
+
+// for example for the file `docs/TEST.md`
+// use encoded `ZG9jcy9URVNULm1k`
+$ curl -X PUT "https://<endpoint>/api/v1/workspaces/<id>/files/ZG9jcy9URVNULm1k?access_token=<access_token>"
