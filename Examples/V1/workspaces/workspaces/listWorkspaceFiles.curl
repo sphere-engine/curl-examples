@@ -1,0 +1,8 @@
+$ curl --header "Authorization: Bearer <access_token>" -X GET "https://<endpoint>/api/v1/workspaces/<id>/list_files/<path>"
+
+// for example for the directory `src/` use encoded `c3JjLw==`
+$ curl --header "Authorization: Bearer <access_token>" -X GET "https://<endpoint>/api/v1/workspaces/<id>/list_files/c3JjLw=="
+
+// for example for the workspace directory (`/home/user/workspace`) 
+// skip the path parameter
+$ curl --header "Authorization: Bearer <access_token>" -X GET "https://<endpoint>/api/v1/workspaces/<id>/list_files"
